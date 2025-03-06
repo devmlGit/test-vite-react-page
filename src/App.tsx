@@ -41,7 +41,6 @@ function App() {
       >
         Click me
       </Button>
-      <Button onBtnClick={() => {}}>Hey</Button>
     </div>
   );
 }
