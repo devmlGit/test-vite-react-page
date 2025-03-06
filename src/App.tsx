@@ -41,6 +41,11 @@ function App() {
       >
         Click me
       </Button>
+      <ListGroup
+        heading={"Animals"}
+        items={["monkey, donkey, giraffe"]}
+        onSelectItem={handleSelectItem}
+      />
     </div>
   );
 }
