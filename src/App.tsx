@@ -43,7 +43,7 @@ function App() {
       </Button>
       <ListGroup
         heading={"Animals"}
-        items={["monkey, donkey, giraffe"]}
+        items={["monkey", "donkey", "giraffe"]}
         onSelectItem={handleSelectItem}
       />
     </div>
